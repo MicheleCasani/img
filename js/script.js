@@ -3,9 +3,9 @@ const lampadina = document.getElementById('lamp')
 const btnLampadina = document.getElementById('btn-lamp')
 
 btnLampadina.addEventListener('click',function(){
-    if(lampadina.includes('yellow')){
-        lampadina = './img/white_lamp.png';
+    if(lampadina.src.includes('yellow')){
+        lampadina.src = './img/white_lamp.png';
     }
 
-    else(lampadina = './img/yellow_lamp.png')
+    else(lampadina.src = './img/yellow_lamp.png')
 });
